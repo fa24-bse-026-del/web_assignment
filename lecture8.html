@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lecture 8 - CSS3 Features</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e8f4ff, #f5fbff);
+            color: #263238;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0b3d62, #168aad, #00a6c7);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+            box-shadow: 0 6px 18px rgba(0, 60, 100, 0.25);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 0.5px;
+        }
+
+        header p {
+            font-size: 19px;
+            margin-top: 12px;
+        }
+
+        .student {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 35px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 70, 110, 0.15);
+            border-top: 6px solid #00a6c7;
+        }
+
+        .student h2 {
+            color: #075985;
+            font-size: 28px;
+            border-bottom: 3px solid #d8f3fa;
+            padding-bottom: 12px;
+        }
+
+        .student h3 {
+            color: #087ea4;
+            font-size: 21px;
+            margin-top: 28px;
+        }
+
+        .student p {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #37474f;
+        }
+
+        .student ul {
+            background: #f0faff;
+            border-left: 5px solid #00a6c7;
+            border-radius: 12px;
+            padding: 20px 35px;
+        }
+
+        .student li {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .student a {
+            display: inline-block;
+            background: linear-gradient(135deg, #075985, #00a6c7);
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .student a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 100, 150, 0.25);
+        }
+
+        footer {
+            background: #082f49;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 15px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            .student {
+                margin: 25px 15px;
+                padding: 23px;
+            }
+
+            .student h2 {
+                font-size: 24px;
+            }
+
+            .student h3 {
+                font-size: 19px;
+            }
+
+            .student p {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS3 Features</h1>
+        <p>Lecture 8</p>
+    </header>
+
+    <section class="student">
+
+        <h2>Lecture Summary</h2>
+
+        <p>
+            CSS3 provides different features that can be used
+            to make web pages more attractive and interactive.
+        </p>
+
+        <h3>Visual Features</h3>
+
+        <ul>
+            <li>Rounded corners</li>
+            <li>Gradients</li>
+            <li>Shadows</li>
+            <li>Opacity</li>
+        </ul>
+
+        <h3>Transforms and Transitions</h3>
+
+        <p>
+            Transforms can change the appearance or position
+            of elements. Transitions make changes smoother.
+        </p>
+
+        <h3>CSS Animations</h3>
+
+        <p>
+            CSS animations can be created using keyframes
+            to produce visual effects.
+        </p>
+
+        <h3>Other CSS3 Features</h3>
+
+        <ul>
+            <li>Web Fonts</li>
+            <li>Icon Fonts</li>
+            <li>CSS Custom Properties</li>
+            <li>Media Queries</li>
+            <li>Feature Queries</li>
+        </ul>
+
+        <br>
+
+        <a href="../index.html">← Home</a>
+
+    </section>
+
+    <footer>
+        <p>Asad Ali | FA24_BSE_026</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,411 @@
+/* =========================
+   GENERAL PAGE
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef6ff, #f7fbff);
+    color: #263238;
+}
+
+
+/* =========================
+   MAIN HEADER
+========================= */
+
+header {
+    background: linear-gradient(135deg, #0f4c81, #1976b9);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    box-shadow: 0 5px 15px rgba(15, 76, 129, 0.25);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 0.5px;
+}
+
+header p {
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   STUDENT INFORMATION
+========================= */
+
+.student {
+    width: 78%;
+    margin: 30px auto;
+    background: rgba(255, 255, 255, 0.96);
+    padding: 28px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(15, 76, 129, 0.12);
+    border: 1px solid #dcecf9;
+}
+
+.student h2 {
+    color: #0f4c81;
+}
+
+
+/* =========================
+   LECTURES SECTION
+========================= */
+
+.lectures {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.lectures h2 {
+    text-align: center;
+    color: #0f4c81;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(15, 76, 129, 0.12);
+}
+
+th {
+    background: linear-gradient(135deg, #0f4c81, #1976b9);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #e2edf5;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f9fd;
+}
+
+tr:hover {
+    background-color: #e1f1ff;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #0f4c81;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1976b9;
+    text-decoration: underline;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    margin-top: 50px;
+    background: linear-gradient(135deg, #082f49, #0f4c81);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* =================================================
+   LECTURE PAGES
+   Same Professional Boys Theme
+================================================= */
+
+
+/* Lecture page background */
+
+.lecture1,
+.lecture2,
+.lecture3,
+.lecture4,
+.lecture5,
+.lecture6,
+.lecture7,
+.lecture8 {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eaf5ff, #f8fbff);
+}
+
+
+/* =========================
+   LECTURE HEADER
+========================= */
+
+.lecture1 header,
+.lecture2 header,
+.lecture3 header,
+.lecture4 header,
+.lecture5 header,
+.lecture6 header,
+.lecture7 header,
+.lecture8 header {
+    background: linear-gradient(135deg, #0b3d62, #1268a0, #1597c7);
+    padding: 38px 20px;
+    box-shadow: 0 6px 18px rgba(11, 61, 98, 0.25);
+}
+
+.lecture1 header h1,
+.lecture2 header h1,
+.lecture3 header h1,
+.lecture4 header h1,
+.lecture5 header h1,
+.lecture6 header h1,
+.lecture7 header h1,
+.lecture8 header h1 {
+    font-size: 34px;
+}
+
+
+/* =========================
+   LECTURE CONTENT CARD
+========================= */
+
+.lecture1 .student,
+.lecture2 .student,
+.lecture3 .student,
+.lecture4 .student,
+.lecture5 .student,
+.lecture6 .student,
+.lecture7 .student,
+.lecture8 .student {
+    max-width: 850px;
+    width: 78%;
+    margin: 40px auto;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 20px;
+    border-top: 5px solid #1597c7;
+    box-shadow: 0 10px 30px rgba(11, 61, 98, 0.14);
+}
+
+
+/* =========================
+   LECTURE MAIN HEADING
+========================= */
+
+.lecture1 .student h2,
+.lecture2 .student h2,
+.lecture3 .student h2,
+.lecture4 .student h2,
+.lecture5 .student h2,
+.lecture6 .student h2,
+.lecture7 .student h2,
+.lecture8 .student h2 {
+    color: #0b5d8a;
+    font-size: 28px;
+    border-bottom: 3px solid #b9e7f7;
+    padding-bottom: 12px;
+}
+
+
+/* =========================
+   SUB HEADINGS
+========================= */
+
+.lecture1 .student h3,
+.lecture2 .student h3,
+.lecture3 .student h3,
+.lecture4 .student h3,
+.lecture5 .student h3,
+.lecture6 .student h3,
+.lecture7 .student h3,
+.lecture8 .student h3 {
+    color: #087ea4;
+    margin-top: 28px;
+    font-size: 21px;
+}
+
+
+/* =========================
+   PARAGRAPHS
+========================= */
+
+.lecture1 .student p,
+.lecture2 .student p,
+.lecture3 .student p,
+.lecture4 .student p,
+.lecture5 .student p,
+.lecture6 .student p,
+.lecture7 .student p,
+.lecture8 .student p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #37474f;
+}
+
+
+/* =========================
+   LIST
+========================= */
+
+.lecture1 .student ul,
+.lecture2 .student ul,
+.lecture3 .student ul,
+.lecture4 .student ul,
+.lecture5 .student ul,
+.lecture6 .student ul,
+.lecture7 .student ul,
+.lecture8 .student ul {
+    background: #f0f9fd;
+    padding: 20px 35px;
+    border-left: 5px solid #1597c7;
+    border-radius: 12px;
+}
+
+.lecture1 .student li,
+.lecture2 .student li,
+.lecture3 .student li,
+.lecture4 .student li,
+.lecture5 .student li,
+.lecture6 .student li,
+.lecture7 .student li,
+.lecture8 .student li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+
+/* =========================
+   HOME BUTTON
+========================= */
+
+.lecture1 .student a,
+.lecture2 .student a,
+.lecture3 .student a,
+.lecture4 .student a,
+.lecture5 .student a,
+.lecture6 .student a,
+.lecture7 .student a,
+.lecture8 .student a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #0f4c81, #1597c7);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.lecture1 .student a:hover,
+.lecture2 .student a:hover,
+.lecture3 .student a:hover,
+.lecture4 .student a:hover,
+.lecture5 .student a:hover,
+.lecture6 .student a:hover,
+.lecture7 .student a:hover,
+.lecture8 .student a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 18px rgba(15, 76, 129, 0.3);
+}
+
+
+/* =========================
+   LECTURE FOOTER
+========================= */
+
+.lecture1 footer,
+.lecture2 footer,
+.lecture3 footer,
+.lecture4 footer,
+.lecture5 footer,
+.lecture6 footer,
+.lecture7 footer,
+.lecture8 footer {
+    background: linear-gradient(135deg, #082f49, #0f4c81);
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    .student {
+        width: 85%;
+        padding: 22px;
+    }
+
+    .lectures {
+        width: 94%;
+    }
+
+    .lecture1 .student,
+    .lecture2 .student,
+    .lecture3 .student,
+    .lecture4 .student,
+    .lecture5 .student,
+    .lecture6 .student,
+    .lecture7 .student,
+    .lecture8 .student {
+        width: 82%;
+        padding: 22px;
+        margin: 25px auto;
+    }
+
+    .lecture1 .student h2,
+    .lecture2 .student h2,
+    .lecture3 .student h2,
+    .lecture4 .student h2,
+    .lecture5 .student h2,
+    .lecture6 .student h2,
+    .lecture7 .student h2,
+    .lecture8 .student h2 {
+        font-size: 24px;
+    }
+
+    .lecture1 .student h3,
+    .lecture2 .student h3,
+    .lecture3 .student h3,
+    .lecture4 .student h3,
+    .lecture5 .student h3,
+    .lecture6 .student h3,
+    .lecture7 .student h3,
+    .lecture8 .student h3 {
+        font-size: 19px;
+    }
+
+    .lecture1 .student p,
+    .lecture2 .student p,
+    .lecture3 .student p,
+    .lecture4 .student p,
+    .lecture5 .student p,
+    .lecture6 .student p,
+    .lecture7 .student p,
+    .lecture8 .student p {
+        font-size: 15px;
+    }
+}
